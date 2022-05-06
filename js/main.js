@@ -9,7 +9,7 @@ const weatherBlock = document.querySelector('#weather');
       <img src="images/loader.gif" alt="Loading...">
       </div>
     `;
-    const server = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=Kyiv&appid=0c142138796086d391b86dca18214a85';
+    const server = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=London&appid=';
     const response = await fetch(server, {
       method: 'GET',
     });
